@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Variables!</title>
+    <link rel="stylesheet" href="../base.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>Variables!</title>
-  <link rel="stylesheet" href="../base.css">
-</head>
+  <body>
+    <script>
+      /* eslint-disable prefer-const */
+      'use strict'; // enforces better coding practices
+      var first = 'wes'; // var variable declaration statement // function scoped
+      let age = 300; // let variable declaration statement // block scoped
+      const cool = 'true'; // function call statement // block scoped
 
-<body>
-  <script>
-    // function scoped
-    var first = 'wes';
-    // block scoped
-    let age = 300;
-    let cool = true;
+      first = 'adam'; // reassignment to a let variable
+      // cool = false; // can't assign to const (exception is objects and arrays)
+      // dog = 'snickers'; // this won't work with 'use strict' as 'var' is not used
 
-    const Dog = 'bowser';
+      // basic best practices
+      // 1. const by default
+      // 2. let if the value needs changing
+      // 3. var if it has to be
 
-    // camel case
-    const iLovePizza = true;
-    // UpperCamelCase
-    const ILoveToEatHotDogs = false;
-    // snake case!!
-    const this_is_snake_case = 'cool';
+      // only classes to start with a Capital Letter
+      const dog = 'bowser';
 
-
-
-  </script>
-</body>
-
+      // Can begin with $
+      let $$$$$$$$$$ = 299;
+      // Can begin with _
+      var ____________ = 299;
+      // Cannot contain -
+      // var fdsf-fsd-fsdf-sd = 299
+    </script>
+  </body>
 </html>
