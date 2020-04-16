@@ -46,36 +46,36 @@
 
 // const price = 1034;
 
-const person = {
-  first: 'wes',
-  last: 'bos',
-  age: 100,
-};
-console.log(person);
+// const person = {
+//   first: 'wes',
+//   last: 'bos',
+//   age: 100,
+// };
+// console.log(person);
 
-let dog;
-console.log(dog);
-dog = 'snickers';
+// let dog;
+// console.log(dog);
+// dog = 'snickers';
 
-let somethingUndefined;
-const somethingNull = null;
+// let somethingUndefined;
+// const somethingNull = null;
 
-const cher = {
-  first: 'cher',
-};
+// const cher = {
+//   first: 'cher',
+// };
 
-const teller = {
-  first: 'Raymond',
-  last: 'Teller',
-};
+// const teller = {
+//   first: 'Raymond',
+//   last: 'Teller',
+// };
 
-teller.first = 'Teller';
-teller.last = null;
+// teller.first = 'Teller';
+// teller.last = null;
 
-// let isDrawing = false;
-// let age = 18;
-// const ofAge = age > 19;
-// console.log(ofAge);
+let isDrawing = false;
+let age = 18;
+const ofAge = age > 19;
+console.log(ofAge);
 
-// age = 100;
-// let age2 = 100;
+age = 100;
+let age2 = 100;
